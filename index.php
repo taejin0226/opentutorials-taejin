@@ -1,7 +1,4 @@
 <?php
-var_dump($_GET);
-var_dump($_GET['id']);
-var_dump($_GET['name']);
 // 1. 데이터베이스 서버에 접속
 $link=mysql_connect('localhost','root','111111');
 if(!$link) {
