@@ -81,6 +81,9 @@ $topic = mysql_fetch_assoc($result);
             .description{
                 width:500px;
             }
+            p {
+            	text-align: right;
+            }
         </style>
     </head>
   
@@ -88,6 +91,13 @@ $topic = mysql_fetch_assoc($result);
         <div>
             <header>
                 <h1>JavaScript</h1>
+                <p> <script type="text/javascript">
+                var d = new Date();
+                var curr_hour = d.getHours();
+                var curr_min = d.getMinutes();
+                var curr_sec = d.getSeconds();
+                document.write('Current time is '+curr_hour+":"+curr_min+":"+curr_sec+" (by javascript)");
+        </script></p>
             </header>
             <div id="toolbar">
                 <input type="button" value="black" onclick="document.getElementById('body').className='black'" />
