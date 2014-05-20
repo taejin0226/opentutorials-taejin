@@ -96,7 +96,7 @@ $topic = mysql_fetch_assoc($result);
                 var curr_hour = d.getHours();
                 var curr_min = d.getMinutes();
                 var curr_sec = d.getSeconds();
-                document.write('Current time is '+curr_hour+":"+curr_min+":"+curr_sec+" (by javascript)");
+                document.write('Current time is '+curr_hour+":"+curr_min+":"+curr_sec);
         </script></p>
             </header>
             <div id="toolbar">
